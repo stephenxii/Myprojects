@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+h1 {
+  font-size: 2vw;
+  color: whitesmoke;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+div {
+  color: white;
+  font-size: calc(2vw);
+  text-align: center;
+  display: block;
+}
+
+.darkbrown {
+  background-color: rgb(194, 139, 68);
+ 
+}
+
+.brown {
+  background-color: #eaf185; 
+  
+}
+
+.darkbrown, .brown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+
+  width: 40vw;
+  height: 40vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  align-content: center;
+  margin: 0 auto;
+  border: 2vw solid rgb(90, 59, 0);
+}
+
+.border {
+  border: 1vw solid rgb(71, 42, 4);
+  border-radius: 50px;
+  box-shadow: inset -1px 1px 7px rgba(0,0,0,.2), 
+                inset 1px -1px 7px rgba(0,0,0,.2), 
+                1px 12px 5px rgba(0,0,0,.4), 
+                4px 3px 8px rgba(0,0,0,.4), 
+                5px 10px 10px rgba(0,0,0,.2), 
+                -5px 10px 10px rgba(0,0,0,.4);
+}
+
+
+#blackpiece {
+  color: black;
+}
+
+
+
+
+
+
